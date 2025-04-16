@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Yahtzee Spel 🎲
 Dit is een interactief Yahtzee-spel dat ik heb gemaakt met React voor mijn opleiding Media Design. Het doel was om te ontdekken wat ik het leukst vind in frontend development en een werkend spel te bouwen dat gebruikers kunnen spelen en testen. Het spel heeft een inlogpagina, homepagina, game-pagina en scores-pagina, en slaat je worpen op in LocalStorage.
 
