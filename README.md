@@ -1,80 +1,22 @@
 Yahtzee Spel 🎲
-Dit is een interactief Yahtzee-spel dat ik heb gemaakt met React voor mijn opleiding Media Design. Het doel was om te ontdekken wat ik het leukst vind in frontend development en een werkend spel te bouwen dat gebruikers kunnen spelen en testen. Het spel heeft een inlogpagina, homepagina, game-pagina en scores-pagina, en slaat je worpen op in LocalStorage.
+Dit is een interactief Yahtzee-spel dat ik heb gemaakt met behulp van HTML, CSS en JavaScript als onderdeel van mijn opleiding Media Design. Het doel van dit project was om te ontdekken wat ik het leukst vind binnen frontend development en een volledig werkend spel te realiseren dat gebruikers zelfstandig kunnen spelen en testen.
 
 Hoe werkt het spel?
-Inloggen: Voer een gebruikersnaam in om te beginnen. Je naam wordt opgeslagen in LocalStorage.
-Homepagina: Kies "Opnieuw" om een nieuw spel te starten of "Hervatten" om verder te gaan waar je gebleven was.
-Game-pagina: Gooi vijf dobbelstenen door op "Gooien" te klikken. De worpen worden opgeslagen in LocalStorage.
-Scores-pagina: Klik op "Scores bekijken" om je punten te zien, zoals "1-en" en "Yahtzee".
-=======
-# Getting Started with Create React App
+🔐 Inloggen
+Voer je gebruikersnaam in om het spel te starten. Je naam wordt opgeslagen in LocalStorage zodat je later verder kunt gaan.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🏠 Homepagina
+Kies "Opnieuw" om een nieuw spel te beginnen of "Hervatten" om verder te gaan waar je gebleven was.
 
-## Available Scripts
+🎮 Spelpagina
+Klik op "Gooien" om vijf dobbelstenen te werpen. Je kunt bepaalde dobbelstenen vasthouden door erop te klikken voordat je opnieuw gooit. Je worpen worden automatisch opgeslagen.
 
-In the project directory, you can run:
+📊 Scores bekijken
+Klik op "Scores bekijken" om je behaalde punten per categorie te zien, zoals "1-en", "3-of-a-kind" en natuurlijk "Yahtzee". Punten worden ook opgeslagen in LocalStorage.
 
-### `npm start`
+Technische details
+Gemaakt met: HTML, CSS en JavaScript (zonder frameworks zoals React)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Opslag: Gegevens (zoals gebruikersnaam, worpen en scores) worden lokaal opgeslagen met behulp van localStorage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 3ccb404... Initialize project using Create React App
+Design: Het ontwerp is geïnspireerd op bestaande voorbeeldspelletjes, waarbij vooral de kleur rood vaak terugkwam als speels en opvallend element
